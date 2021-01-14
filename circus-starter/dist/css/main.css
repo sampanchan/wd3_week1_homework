@@ -157,18 +157,31 @@ table {
 body {
 	background: #ccc;
 	text-align: center;
+	width: 900px;
+	margin: auto;
+}
+header{
+	background-color: plum;
+	border-radius: 10px;
+	padding-bottom: 10px;
 }
 .samantha{
-	color: mediumslateblue;
+	color: rgb(159, 214, 216);
 	font-weight: bold;
 	font-size: 25px;
 	font-family: 'Raleway', sans-serif;
-	padding-bottom: 10px;
+	padding-bottom: 15px;
 }
 header p{
 	color: midnightblue;
 	font-size: 15px;
 	font-family: 'Raleway', sans-serif;
+}
+.pandemic{
+	background-color: peachpuff;
+	border-radius: 10px;
+	margin-top: 10px;
+	
 }
 .question{
 	color: olive;
@@ -177,9 +190,13 @@ header p{
 }
 .answers{
 	color: palevioletred;
+	
+}
+.answers p{
+	padding: 10px;
 }
 .image{
 	margin: 0 auto;
-	width: 100px;
+	
 }
 
